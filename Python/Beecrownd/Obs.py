@@ -3,5 +3,3 @@
 # Snake_Case padrão
 # Escreva tudo em minusculas
 # myvariable = 2
-
-
