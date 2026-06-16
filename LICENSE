@@ -1,6 +1,3 @@
-# 1. Cria o arquivo LICENSE com o texto MIT
-cat > LICENSE << 'EOF'
-MIT License
 
 Copyright (c) 2026 Gabriel Porto
 
@@ -22,15 +19,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 EOF
-
-# 2. Verifica se foi criado
-ls -la
-
-# 3. Adiciona ao stage
-git add LICENSE
-
-# 4. Commita com mensagem padrão de mercado
-git commit -m "docs: add MIT License"
-
-# 5. Sobe pro GitHub
-git push
