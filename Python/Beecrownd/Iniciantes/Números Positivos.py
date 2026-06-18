@@ -1,3 +1,4 @@
+# Usando for
 contador1 = 0
 for number in range (6):
     numero_user1 = float(input())
@@ -5,6 +6,7 @@ for number in range (6):
         contador1 += 1
 print (f"{contador1} valores positivos")
 
+# Usando while
 contador2 = 0
 repeticoes = 0
 while repeticoes < 6:
