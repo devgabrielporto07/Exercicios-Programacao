@@ -8,20 +8,20 @@ contador_positivo1 = 0
 contador_negativo1 = 0
 # Usamos vários if por conta da hierarquia caso a gente coloque elif talvez a condicional não faça a verificação
 
-# for valores in range(5):
-#     valores_usuarios1 = int(input())
-#     if valores_usuarios1 % 2 == 0:
-#         contador_pares1 += 1
-#     if valores_usuarios1 % 2 == 1:
-#         contador_impares1 += 1
-#     if valores_usuarios1 > 0:
-#         contador_positivo1 += 1
-#     if valores_usuarios1 < 0:
-#         contador_negativo1 += 1
-# print (f"{contador_pares1} valor(es) par(es)")
-# print (f"{contador_impares1} valor(es) impar(es)")
-# print (f"{contador_positivo1} valor(es) positivo(s)")
-# print (f"{contador_negativo1} valor(es) negativo(s)")
+for valores in range(5):
+    valores_usuarios1 = int(input())
+    if valores_usuarios1 % 2 == 0:
+        contador_pares1 += 1
+    if valores_usuarios1 % 2 == 1:
+        contador_impares1 += 1
+    if valores_usuarios1 > 0:
+        contador_positivo1 += 1
+    if valores_usuarios1 < 0:
+        contador_negativo1 += 1
+print (f"{contador_pares1} valor(es) par(es)")
+print (f"{contador_impares1} valor(es) impar(es)")
+print (f"{contador_positivo1} valor(es) positivo(s)")
+print (f"{contador_negativo1} valor(es) negativo(s)")
 
 # Usando while
 
