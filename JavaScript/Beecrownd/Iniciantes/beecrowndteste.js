@@ -22,8 +22,8 @@ var lines = input.split('\n');
 //
 // lines = ["30", "10"]
 //
-// A = parseInt(lines.shift()) -> 30
-// B = parseInt(lines.shift()) -> 10
+// let A = parseInt(lines.shift()) -> 30
+// let B = parseInt(lines.shift()) -> 10
 //
 // lines agora = []
 // =========================================
