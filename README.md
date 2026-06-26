@@ -19,7 +19,7 @@ Funciona também como um registro público da minha jornada de estudos em Ciênc
 </div>
 
 ##  📌 Como usar
-Os arquivos são autoexplicativos — cada solução contém o enunciado referenciado no nome do arquivo ou em comentário no topo do código.
+Os arquivos são autoexplicativos — cada solução contém a ideia da lógica e o commit  refere-se a o nome do problema e o número dele junto com o script da linguagem.
 ##  👨🏻‍💻 Autor
 *Gabriel Porto*
 Estudante de Ciência da Computação — *UNINASSAU*
