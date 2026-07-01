@@ -1,4 +1,4 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var input = require('fs').readFileSync('inputruntimenodejs.txt', 'utf8');
 var lines = input.split('\n');
 
 let n = 3.14159
