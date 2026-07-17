@@ -11,8 +11,8 @@ print (horas,minutos,segundos)
 
 tempo_duracao_segundos = int(input())
 
-horas = tempo_duracao_segundos // 3600
-resto = tempo_duracao_segundos % 3600
+horas = tempo_duracao_segundos // 3600 
+resto = tempo_duracao_segundos % 3600 
 
 minutos = resto // 60
 segundos = resto % 60
