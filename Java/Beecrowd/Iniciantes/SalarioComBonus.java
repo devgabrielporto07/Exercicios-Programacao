@@ -10,8 +10,9 @@ public class SalarioComBonus {
         double salario_Fixo = scanner.nextDouble();
         double total_Devendas = scanner.nextDouble();
         final double comissao_Vendas = 0.15; // comissão de vendas de 15%
-         double total_Mes = (total_Devendas*comissao_Vendas) + salario_Fixo;
-         System.out.printf ("TOTAL = R$ %.2f\n", total_Mes);
+        double total_Mes = (total_Devendas*comissao_Vendas) + salario_Fixo;
+        System.out.printf ("TOTAL = R$ %.2f\n", total_Mes);
+        scanner.close();
     }
 }
 
@@ -29,5 +30,6 @@ public class Main {
         final double comissao_Vendas = 0.15; // 15%
         double total_Mes = (total_Devendas*comissao_Vendas) + salario_Fixo;
         System.out.printf ("TOTAL = R$ %.2f\n", total_Mes);
+        scanner.close();
     }
 }

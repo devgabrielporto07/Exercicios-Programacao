@@ -14,6 +14,7 @@ public class GastoDeCombustivel {
         double distancia_Total = tempo_Viagemhoras*velocidade_MediaKmhora;
         double quantidade_Litros = distancia_Total / autonomia_Automovel;
         System.out.printf ("%.3f\n", quantidade_Litros);
+        scanner.close();
     }
 }
 

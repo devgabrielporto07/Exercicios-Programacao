@@ -14,6 +14,7 @@ public class ConversaoDeTempo {
         int tempo_Minutos = resto / 60;
         int tempo_Segundos = resto % 60;
         System.out.println (tempo_Horas+":"+tempo_Minutos+":"+tempo_Segundos);
+        scanner.close();
     }
 }
 // (divisao inteira) dois tipos primitivos iguais o java força apenas ficar em inteiro
@@ -39,5 +40,6 @@ public class Main {
         int tempo_Minutos = resto / 60;
         int tempo_Segundos = resto % 60;
         System.out.println (tempo_Horas+":"+tempo_Minutos+":"+tempo_Segundos);
+        scanner.close();
     }
 }

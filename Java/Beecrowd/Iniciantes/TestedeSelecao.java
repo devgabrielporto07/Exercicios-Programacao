@@ -17,6 +17,7 @@ public class TestedeSelecao {
         else {
             System.out.println ("Valores nao aceitos");
         }
+        scanner.close();
     }
 }
 
@@ -39,5 +40,6 @@ public class Main {
         else {
             System.out.println ("Valores nao aceitos");
         }
+        scanner.close();
     }
 }

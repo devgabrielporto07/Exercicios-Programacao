@@ -11,6 +11,7 @@ public class SomaSimples {
         int valor_2 = scanner.nextInt();
         int soma_Simples = valor_1 + valor_2;
         System.out.println ("SOMA = " + soma_Simples);
+        scanner.close();
     }
 }
 
@@ -26,5 +27,6 @@ public class Main {
         int valor_2 = scanner.nextInt();
         int soma_Simples = valor_1 + valor_2;
         System.out.println ("SOMA = " + soma_Simples);
+        scanner.close();
     }
 }

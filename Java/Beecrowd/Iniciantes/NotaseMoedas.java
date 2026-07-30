@@ -52,6 +52,7 @@ public class NotaseMoedas {
         System.out.println (moeda_010 + " moeda(s) de R$ 0.10");
         System.out.println (moeda_005 + " moeda(s) de R$ 0.05");
         System.out.println (moeda_001 + " moeda(s) de R$ 0.01");
+        scanner.close();
     }
 }
 
@@ -110,5 +111,6 @@ public class Main {
         System.out.println (moeda_010 + " moeda(s) de R$ 0.10");
         System.out.println (moeda_005 + " moeda(s) de R$ 0.05");
         System.out.println (moeda_001 + " moeda(s) de R$ 0.01");
+        scanner.close();
     }
 }

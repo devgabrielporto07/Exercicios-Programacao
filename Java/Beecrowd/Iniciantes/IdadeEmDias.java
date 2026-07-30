@@ -16,6 +16,7 @@ public class IdadeEmDias {
         System.out.println (idade_Em_Ano +" ano(s)");
         System.out.println (idade_Em_Mes +" mes(es)");
         System.out.println (idade_Resto_Dias +" dia(s)");
+        scanner.close();
     }
 }
 

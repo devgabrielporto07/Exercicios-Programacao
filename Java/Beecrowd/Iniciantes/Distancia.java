@@ -11,6 +11,7 @@ public class Distancia {
         int tempo_Minutos = distancia_Km*2; // Minutos
         System.out.print (tempo_Minutos);
         System.out.println (" minutos");
+        scanner.close();
     }
 }
 
@@ -27,5 +28,6 @@ public class Main {
         int tempo_Minutos = distancia_Km*2; 
         System.out.print (tempo_Minutos);
         System.out.println (" minutos");
+        scanner.close();
     }
 }

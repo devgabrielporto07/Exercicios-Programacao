@@ -13,6 +13,7 @@ public class DistanciaEntreDoisPontos {
         double plano2_Y2 = scanner.nextDouble();
         double dist_Doispontos = Math.sqrt(Math.pow (plano2_X2 - plano1_X1, 2) + Math.pow (plano2_Y2 - plano1_Y1, 2));
         System.out.printf ("%.4f\n", dist_Doispontos);
+        scanner.close();
     }
 }
 
@@ -31,5 +32,6 @@ public class Main {
         double plano2_Y2 = scanner.nextDouble();
         double dist_Doispontos = Math.sqrt(Math.pow (plano2_X2 - plano1_X1, 2) + Math.pow (plano2_Y2 - plano1_Y1, 2));
         System.out.printf ("%.4f\n", dist_Doispontos);
+        scanner.close();
      }
 }

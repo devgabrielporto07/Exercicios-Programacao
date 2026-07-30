@@ -17,6 +17,7 @@ public class Media2 {
         double valor_C = scanner.nextDouble();
         double media_ValoresABC = ((valor_A*peso_A) + (valor_B*peso_B) + (valor_C*peso_C)) / (soma_PesoABC);
         System.out.printf ("MEDIA = %.1f\n", media_ValoresABC);
+        scanner.close();
     }
 }
 
@@ -38,5 +39,6 @@ public class Main {
         double valor_C = scanner.nextDouble();
         double media_ValoresABC = ((valor_A*peso_A) + (valor_B*peso_B) + (valor_C*peso_C)) / (soma_PesoABC);
         System.out.printf ("MEDIA = %.1f\n", media_ValoresABC);
+        scanner.close();
     }
 }

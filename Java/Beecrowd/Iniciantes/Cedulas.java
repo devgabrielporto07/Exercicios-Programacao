@@ -32,6 +32,7 @@ public class Cedulas {
         System.out.println (nota_5 + " nota(s) de R$ 5,00");
         System.out.println (nota_2 + " nota(s) de R$ 2,00");
         System.out.println (nota_1 + " nota(s) de R$ 1,00");
+        scanner.close();
     }
 }
 
@@ -67,5 +68,6 @@ public class Main {
         System.out.println (nota_5 + " nota(s) de R$ 5,00");
         System.out.println (nota_2 + " nota(s) de R$ 2,00");
         System.out.println (nota_1 + " nota(s) de R$ 1,00");
+        scanner.close();
     }
 }

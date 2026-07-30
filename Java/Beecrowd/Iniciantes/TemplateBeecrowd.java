@@ -9,6 +9,9 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Construct your code java
+        // Construct your code java:
+        
+
+        scanner.close();
     }
 }

@@ -19,6 +19,7 @@ public class CalculoSimples {
         final double valor_Pagarpeca2 = number_Peca2*valor_Peca2;
         double soma_Pagamento = valor_Pagarpeca1 + valor_Pagarpeca2;
         System.out.printf ("VALOR A PAGAR: R$ %.2f\n", soma_Pagamento);
+        scanner.close();
     }
 }
 
@@ -41,5 +42,6 @@ public class Main {
         final double valor_Pagarpeca2 = number_Peca2*valor_Peca2;
         double soma_Pagamento = valor_Pagarpeca1 + valor_Pagarpeca2;
         System.out.printf ("VALOR A PAGAR: R$ %.2f\n", soma_Pagamento);
+        scanner.close();
     }
 }

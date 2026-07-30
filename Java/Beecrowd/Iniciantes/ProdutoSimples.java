@@ -11,6 +11,7 @@ public class ProdutoSimples {
         int valor_Dois = scanner.nextInt();
         int produto_Simples = valor_Um*valor_Dois;
         System.out.println ("PROD = " + produto_Simples);
+        scanner.close();
     }
 }
 
@@ -27,5 +28,6 @@ public class Main {
         int valor_Dois = scanner.nextInt();
         int produto_Simples = valor_Um*valor_Dois;
         System.out.println ("PROD = " + produto_Simples);
+        scanner.close();
     }
 }

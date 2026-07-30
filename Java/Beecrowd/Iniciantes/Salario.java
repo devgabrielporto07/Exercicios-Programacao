@@ -12,6 +12,7 @@ public class Salario {
         final double salario_Employee = horas_Trabalhadas*value_Perhour;
         System.out.println ("NUMBER = " + number_Employee);
         System.out.printf ("SALARY = U$ %.2f\n", salario_Employee);
+        scanner.close();
     }
 }
 
@@ -29,5 +30,6 @@ public class Main {
         final double salario_Employee = horas_Trabalhadas*value_Perhour;
         System.out.println ("NUMBER = " + number_Employee);
         System.out.printf ("SALARY = U$ %.2f\n", salario_Employee);
+        scanner.close();
     }
 }

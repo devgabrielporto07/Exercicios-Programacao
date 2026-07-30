@@ -32,6 +32,6 @@ public class Main {
         double raio_User = scanner.nextDouble(); 
         double area_Circulo = valor_Pi*(Math.pow(raio_User, 2)); 
         System.out.printf ("A=%.4f\n", area_Circulo);
-        
+        scanner.close();
     }
 }

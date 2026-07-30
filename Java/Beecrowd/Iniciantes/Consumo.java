@@ -14,6 +14,7 @@ public class Consumo {
         double consumo = (dist_TotalX / total_Combustivel);
         System.out.printf ("%.3f ", consumo);
         System.out.println ("km/l");
+        scanner.close();
     }
 }
 
@@ -31,5 +32,6 @@ public class Main {
         double consumo = (dist_TotalX / total_Combustivel);
         System.out.printf ("%.3f ", consumo);
         System.out.println ("km/l");
+        scanner.close();
     }
 }

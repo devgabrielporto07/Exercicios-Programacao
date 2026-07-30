@@ -13,6 +13,7 @@ public class Diferenca {
         int valor_D = scanner.nextInt();
         final int DIFERENCA = ((valor_A*valor_B) - (valor_C*valor_D));
         System.out.println ("DIFERENCA = " + DIFERENCA);
+        scanner.close();
     }
 }
 
@@ -31,5 +32,6 @@ public class Main {
         int valor_D = scanner.nextInt();
         final int DIFERENCA = ((valor_A*valor_B) - (valor_C*valor_D));
         System.out.println ("DIFERENCA = " + DIFERENCA);
+        scanner.close();
     }
 }
